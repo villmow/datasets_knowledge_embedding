@@ -1,4 +1,4 @@
-# Task
+# Transforming WN18 / WN18RR back to Text
 
 I wanted to work with the datasets WN18 and WN18RR that contain 18/11 relations from wordnet data.
 
@@ -44,3 +44,8 @@ You can load it into NLTK by executing
 from nltk.corpus import wordnet as wn
 wn.synset('sensual.s.02')
 ```
+
+## Source/Credit
+
+I got both datasets from [TimDettmers/ConvE](https://github.com/TimDettmers/ConvE) as the 
+  [original WN18](https://everest.hds.utc.fr/doku.php?id=en:transe) is down.
