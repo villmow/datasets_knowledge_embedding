@@ -11,10 +11,9 @@ The original datasets have the following form:
 01257145 _derivationally_related_form 07488875
 ...
 ```
-
-This is a problem cause the textual representations of the entities has been 
-lost. Only the wordnet offsets are given as entites, transforming them back 
-is problematic cause they are ambiguous within the 4 datafiles from wordnet. 
+I wanted to have the textual form of the entities. Only the wordnet offsets 
+are given as entites, transforming them back is problematic cause they are 
+ambiguous within the 4 datafiles from wordnet. 
 
 For example `01257145 _derivationally_related_form 07488875` has two offsets:
 `01257145` and `07488875`. 
@@ -27,7 +26,9 @@ For example `01257145 _derivationally_related_form 07488875` has two offsets:
 | VERB |                 |                  |
 
 I transformed the dataset back to wordnet synsets by validating if the given
-relation holds on the ambiguous entities. The textual data looks like this:
+relation holds on the ambiguous entities. 
+
+The transformed textual data then looks like this:
 
 ```
 clangor.v.01  _hypernym sound.v.02
